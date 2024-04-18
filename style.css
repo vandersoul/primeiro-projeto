@@ -1,0 +1,51 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+ 
+ 
+body {
+    height: 100vh;
+    background-color: rgba(26, 25, 25, 0.932);
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+strong{
+   color: rgb(61, 23, 197);
+   font-weight: bold;
+   border: 2px solid #73AD21;
+   padding: 5px;
+   margin: 5px;
+}
+P{
+    font-family: verdana;
+    font-size: 10px;
+}
+.sobre-mim{
+    font-family: verdana;
+    font-size: 20px;
+}
+img{
+    width: 400px;
+    height:400px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+.botao{
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: rgb(245, 239, 239);
+}
+.pricipal{
+    display: flex;
+    justify-content: center;
+ 
+}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+}
