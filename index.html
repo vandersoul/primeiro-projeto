@@ -1,24 +1,39 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initia-scale=1.0">
-        <title>minha pagina</title>  
-        <link rel="stylesheet" href="style.css">                                        
-    </head>
- 
-    <body>                                 <!--<b>- Texto em negri ,<strong>- Texto importante,<i>- Texto em itálico,<em>- Texto enfatizado-->
-        <header></header>                  <!--<mark>- Texto marcado,<small>- Texto menor,<del>- Texto excluído,<ins>- Texto inserido-->
-        <main>            <!--<sub>- Texto subscrito,<sup>- Texto sobrescrito-->
-            <div class="apresentacao">
-                <h1>Melhorando meu Portiforio com <strong>Front-end</strong></h1>
-                <p class="sobre-mim">Aprender o html e CSS é muito bom pois me permite criar páginas web incríveis e interativas. Com HTML, posso estruturar o conteúdo de forma organizada e acessível para os usuários. Além disso, a linguagem me possibilita incorporar elementos visuais, como imagens, vídeos e animações, tornando a experiência do usuário ainda mais cativante. Aprender HTML abre um mundo de possibilidades criativas e me permite desenvolver habilidades essenciais para atuar no universo da programação web.</p>
-                <br>
-            </div>
-            <div class="pricipal">
-                <img src="tigre.jpg" alt="imagem do tigre" >
-            </div>
-        </main>
-        <footer></footer>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initia-scale=1.0">
+    <title>minha pagina</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body> <!--<b>- Texto em negri ,<strong>- Texto importante,<i>- Texto em itálico,<em>- Texto enfatizado-->
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link">Home</a>
+            <a class="cabecalho_menu_link" href="/about.html">Sobre Mim</a>
+        </nav>
+    </header> <!--<mark>- Texto marcado,<small>- Texto menor,<del>- Texto excluído,<ins>- Texto inserido-->
+    <main class="principal"> <!--<sub>- Texto subscrito,<sup>- Texto sobrescrito-->
+        <div class="apresentacao">
+            <h1>Melhorando meu Portiforio com <strong>Front-end</strong></h1>
+            <p class="sobre-mim">Aprender o html e CSS é muito bom pois me permite criar páginas web incríveis e
+                interativas. Com HTML, posso estruturar o conteúdo de forma organizada e acessível para os usuários.
+                Além disso, a linguagem me possibilita incorporar elementos visuais, como imagens, vídeos e animações,
+                tornando a experiência do usuário ainda mais cativante. Aprender HTML abre um mundo de possibilidades
+                criativas e me permite desenvolver habilidades essenciais para atuar no universo da programação web.</p>
+            <a href="https://github.com/vandersoul" class="botao"> github</a>
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" class="botao">
+                linkdin</a>
+        </div>
+
+        <img src="/assets/tigre.jpg" alt="imagem do tigre" class="imagem">
+
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvimento Senac-MG</p>
+    </footer>
+</body>
+
 </html>
