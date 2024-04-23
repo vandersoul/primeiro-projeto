@@ -4,8 +4,14 @@
     padding: 0;
     font-family: "Abel", sans-serif;
 }
+
+:root {
+    --cor-primaria: red;
+    --cor-secundaria: rgb(61, 23, 197); 
+    --cor-terciaria:#73AD21; 
+}
  
- 
+
 body {
     height: 100vh;
     background-image:url(/assets/ceu\ red.jpg);
@@ -21,15 +27,15 @@ h1{
     font-size: 50px;
 }
 strong{
-   color: rgb(61, 23, 197);
+   color: var(--cor-secundaria);
    font-weight: bold;
-   border: 2px solid #73AD21;
+   border: 2px solid var(--cor-primaria);
    padding: 5px;
    margin: 5px;
 }
 P{
     font-family: verdana;
-    font-size: 10px;
+    font-size: 20px;
 }
 .sobre-mim{
     font-family: verdana;
@@ -50,9 +56,10 @@ P{
 }
 .pricipal{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     gap: 25px;
+    align-items: center;
  
 }
 .apresentacao{
@@ -60,6 +67,7 @@ P{
     flex-direction: column;
     gap: 25px;
     align-items: center;
+    margin: 0 15%;
 }
 
 .botao{
@@ -92,4 +100,15 @@ a:hover {
     font-size: 24px;
     font-weight: 600;
     color: #5c3fee;
+}
+@media(max-width:1200px){
+    .apresentacao{
+        margin: 0 10%;
+    }
+    .cabecalho{
+        padding: 5%;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
 }
